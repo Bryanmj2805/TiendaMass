@@ -1,0 +1,32 @@
+.nosotrostext{
+    padding: 40px 40px 40px 40px;
+    text-align: justify;
+}
+
+#desarrolladores .card{
+    padding-top: 20px;
+    background-color: white;
+    border-color: #22468e;
+}
+
+#desarrolladores .card-header{
+    text-align: center;
+    background-color: #bdc3c7;
+}
+
+
+.objetivos p a{
+    width: 200px;
+    background-color:  #22468e;
+}
+
+
+.objetivos{
+
+    padding: 0px 200px 0px 200px;
+    text-align: center;
+}
+
+#desarrolldores2{
+    padding: 0px 200px 20px 200px;
+}

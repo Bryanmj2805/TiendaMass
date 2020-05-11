@@ -1,0 +1,44 @@
+.social-bar{
+    position: fixed;
+    right: 0;
+    top: 40%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column; /*controlamos l estructura*/
+    align-items: flex-end; /*hacemos que se alinie a la parte inferior*/
+    z-index: 100; /*que se ubique encima de todos los elementos de la pagina*/   
+}
+.fab{
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.fab:hover{
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse*/
+}
+
+.fa-facebook-f{
+    background: #2E406E;
+    padding-right: 23px;
+}
+
+.fa-youtube{
+    background: red;
+}
+.fa-instagram{
+    background: #3f729b;
+    padding-right: 17px;
+}
+/*por si agregmos mas redes sociales y no fijarnos en cual esta arriba o abajo usaremos las clases first-child y last-child*/ 
+.fab:first-child{
+    border-radius: 1rem 0 0 0;
+}
+
+.fab:last-child{
+    border-radius: 0 0 0 1rem;
+}
